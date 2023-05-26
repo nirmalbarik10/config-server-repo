@@ -1,0 +1,8 @@
+server.port=8083
+#connection-prop
+spring.datasource.url= jdbc:oracle:thin:@//localhost:1521/xe
+spring.datasource.username=hr
+spring.datasource.password=tiger
+spring.datasource.driver-class-name=oracle.jdbc.OracleDriver
+
+spring.jpa.hibernate.ddl-auto = update
